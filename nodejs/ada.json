@@ -1,0 +1,14 @@
+{
+  "AdaObj": {
+    "firstname": "Ada",
+    "surname": "Kaminkure",
+    "birthday": "02/01/92",
+    "passCode": "PeterPan"
+  },
+  "CodeObj": {
+    "firstname": "Code",
+    "surname": "Edoc",
+    "birthday": "13/12/99",
+    "passCode": "PinkPanter"
+  }
+}
