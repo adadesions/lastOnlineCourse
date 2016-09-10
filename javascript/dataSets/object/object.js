@@ -28,5 +28,6 @@ const ada = {
   }
 };
 
+
 console.log(ada.getFullName());
-console.log(ada.myAgeInTheYearOf(2100));
+console.log(ada.myAgeInTheYearOf(1991));

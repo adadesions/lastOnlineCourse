@@ -5,7 +5,10 @@
 */
 
 // Declaration of Function
-function funcA() {};
+// Hoist
+function funcA() {
+  // CODE HERE...
+};
 
 // OR Anonymous function
 const funcB = function b() {};
@@ -25,7 +28,7 @@ const funcD = function d() {};
  * Higher-Order Function is...
  * Function can return fucntion or receive function as parameters
 ******************************************************************/
-
+// f(g(x))
 // Example 1
 const returnFunc = function r() {
   return () => 1+1;

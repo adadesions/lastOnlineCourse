@@ -12,8 +12,8 @@ const returnMyName = (name) => name;
 const f = (x) => Math.pow(x,2); // x^2
 const g = (x) => x+1;
 
-console.log(f(g(2)));
-console.log(g(f(2)));
+console.log(f(g(2))); // 9
+console.log(g(f(2))); // 5
 
 // Real-life example
 const prefixName = (gender) => {
@@ -24,5 +24,5 @@ const maleOrFemale = (gender) => {
   return gender === 'male'
 }
 
-console.log(prefixName(maleOrFemale('male')));
-console.log(prefixName(maleOrFemale('female')));
+console.log(prefixName(maleOrFemale('male'))); // Mr.
+console.log(prefixName(maleOrFemale('female'))); // Miss
