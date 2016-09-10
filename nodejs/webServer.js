@@ -25,7 +25,7 @@ const server = (req, res) => {
     else {
       console.log(`Server responsed`);
       res.writeHead(200, {'Content-type': `text/${extension}`});
-      FIX: request " / " Response index.html
+      //FIX: request " / " Response index.html
       res.write(String(data));
     }
     res.end();
