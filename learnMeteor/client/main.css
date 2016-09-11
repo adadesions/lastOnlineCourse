@@ -1,0 +1,51 @@
+/* CSS declarations go here */
+body{
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  border: 1px solid #000;
+  overflow: auto;
+}
+
+.navbar {
+  border: 1px dashed #000;
+  height: 4em;
+  margin: 1em;
+}
+
+section#body {
+  padding: 1em;
+  padding-left: 6.5em;
+  height: auto;
+}
+
+.box {
+  display: block;
+  height: 30em;
+  width: 20em;
+  border: 1px solid #000;
+  float: left;
+  margin-right: 3em;
+  margin-bottom: 3em;
+  padding-left: 1em;
+}
+
+.box h1 {
+  text-align: center;
+}
+
+.analysisBtn {
+  font-size: 18px;
+  margin-left: 6.5em;
+}
+
+footer {
+  clear: both;
+  position: relative;
+  z-index: 10;
+  margin: 1em;
+  border: 1px dashed #000;
+  height: 4em;
+}
