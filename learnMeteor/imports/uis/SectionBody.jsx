@@ -16,9 +16,6 @@ const elementBlackBox= (user,comp) => {
   }
   const u = Number(convertEtoN[user]);
   const c = Number(convertEtoN[comp]);
-  console.log(c);
-  console.log(u)
-  console.log(chart[0][0]);
   const match = chart[u][c];
   switch(match) {
     case -1: {
@@ -103,17 +100,18 @@ class Box extends React.Component {
               type="text"
               onBlur={ () => this.sendData() }
             />
+            <button
+              type="button"
+            >
+            Send
+            </button>
+            <br /><br />
             <form>
               <input onChange={ (e) => this.sendData(e) } type="radio" name="elements" value="fire"/>Fire <br/>
               <input onChange={ (e) => this.sendData(e) } type="radio" name="elements" value="water"/>Water <br/>
               <input onChange={ (e) => this.sendData(e) } type="radio" name="elements" value="earth"/>Earth <br/>
               <input onChange={ (e) => this.sendData(e) } type="radio" name="elements" value="wind"/>Wind <br/>
             </form>
-            <button
-              type="button"
-            >
-            Send
-            </button>
           </section>
         );
       }
