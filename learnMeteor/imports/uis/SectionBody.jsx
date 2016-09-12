@@ -6,8 +6,16 @@ const elementBlackBox= (user,comp) => {
     [0,0.5,1,-1], //E
     [0.5,0,-1,1], //W
     [-1,1,0,0.5], //Wi
-    [1,-1,0.5,0]  //F
+    [1,-1,0.5,0]  //Fs
+  // TODOS: Add more elements
   ];
+  /*
+    Win rates
+    -1 => 0%
+    0 => 50%
+    0.5 => 70%
+    1 => 100%
+  */
   const convertEtoN = {
     earth: 0,
     water: 1,
